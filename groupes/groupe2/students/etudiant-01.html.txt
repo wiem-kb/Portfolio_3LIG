@@ -24,46 +24,46 @@
     <main class="container">
         <section class="card">
             <div class="profile-icon">E1</div>
-            <h2>Prénom Nom</h2>
+            <h2>Anas Bouzir</h2>
             <p>Étudiant en troisième année de Licence en Informatique de Gestion.</p>
 
             <div class="profile-details">
-                <p><strong>Groupe :</strong> Groupe 1</p>
+                <p><strong>Groupe :</strong> Groupe 2</p>
                 <p><strong>Spécialité :</strong> Informatique de Gestion</p>
-                <p><strong>Objectif :</strong> Développer mes compétences en informatique et en travail collaboratif.</p>
+                <p><strong>Objectif :</strong> Développer mes compétences business intelligence et l'exploitation des données.</p>
             </div>
 
             <h3>Mes compétences</h3>
             <p>
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">Git</span>
-                <span class="tag">GitHub</span>
+                <span class="tag">python</span>
+                <span class="tag">nettoyage des données</span>
+                <span class="tag">sql</span>
+                <span class="tag">php</span>
             </p>
 
             <h3>Mes projets</h3>
             <p>
-                Projet 1 : création d'une page web en HTML et CSS.
+                Projet 1 : projet BI avec la plateforme databricks,clickhouse,powerBI,elasticsearch.
             </p>
             <p>
-                Projet 2 : participation à un projet collaboratif avec GitHub.
+                Projet 2 : projet BI avec Pandas / postgresql.
             </p>
 
             <h3>Mes liens</h3>
             <p>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/anasbouzir" target="_blank" rel="noopener noreferrer">
                     Mon profil GitHub
                 </a>
             </p>
 
             <a class="back-link" href="../index.html">
-                ← Retour au groupe 1
+                ← Retour au groupe 2
             </a>
         </section>
     </main>
 
     <footer class="footer">
-        <p>3LIG-Portfolio — Étudiant 01</p>
+        <p>3LIG-Portfolio — Anas Bouzir</p>
     </footer>
 
 </body>
