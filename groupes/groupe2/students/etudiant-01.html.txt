@@ -24,11 +24,11 @@
     <main class="container">
         <section class="card">
             <div class="profile-icon">E1</div>
-            <h2>Prénom Nom</h2>
+            <h2>Maryem Boubaker</h2>
             <p>Étudiant en troisième année de Licence en Informatique de Gestion.</p>
 
             <div class="profile-details">
-                <p><strong>Groupe :</strong> Groupe 1</p>
+                <p><strong>Groupe :</strong> Groupe </p>
                 <p><strong>Spécialité :</strong> Informatique de Gestion</p>
                 <p><strong>Objectif :</strong> Développer mes compétences en informatique et en travail collaboratif.</p>
             </div>
@@ -51,7 +51,7 @@
 
             <h3>Mes liens</h3>
             <p>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/boubakermaryem8-collab" target="_blank" rel="noopener noreferrer">
                     Mon profil GitHub
                 </a>
             </p>
