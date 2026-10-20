@@ -24,8 +24,10 @@
     <main class="container">
         <section class="card">
             <div class="profile-icon">E1</div>
-            <h2>Omar Boulila</h2>
-            <p>Étudiant en troisième année de Licence en Informatique de Gestion.</p>
+            <h2>Chayma Amara</h2>
+            <p>Étudiante en troisième année de Licence en Informatique de Gestion.</p>
+            <h2>Bayram Alaya</h2>
+            <p>Étudiante en troisième année de Licence en Informatique de Gestion.</p>
 
             <div class="profile-details">
                 <p><strong>Groupe :</strong> Groupe 2</p>
