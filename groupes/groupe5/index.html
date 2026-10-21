@@ -1,44 +1,193 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Groupe 2 | 3LIG-Portfolio</title>
+    <title>Groupe 5 | 3LIG-Portfolio</title>
     <link rel="stylesheet" href="../../css/styles.css">
+    <style>
+        /* Modern Pro Card Styling */
+        .pro-card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e2e8f0;
+            padding: 2.5rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            font-family: system-ui, -apple-system, sans-serif;
+            color: #1e293b;
+        }
+        .card-header-custom {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .avatar-box {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 12px rgba(30, 58, 138, 0.25);
+        }
+        .user-title h2 {
+            margin: 0 0 0.25rem 0;
+            color: #0f172a;
+            font-size: 1.6rem;
+        }
+        .user-title p {
+            margin: 0;
+            color: #64748b;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: #1e3a8a;
+            margin: 1.5rem 0 0.75rem 0;
+            border-left: 4px solid #3b82f6;
+            padding-left: 0.5rem;
+        }
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        .pro-badge {
+            background: #eff6ff;
+            color: #1d4ed8;
+            border: 1px solid #bfdbfe;
+            padding: 0.35rem 0.85rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-top: 0.75rem;
+        }
+        .project-item {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 1rem;
+            transition: transform 0.2s ease;
+        }
+        .project-item:hover {
+            transform: translateY(-2px);
+            border-color: #93c5fd;
+        }
+        .project-item h4 {
+            margin: 0 0 0.3rem 0;
+            color: #0f172a;
+        }
+        .project-item p {
+            margin: 0;
+            font-size: 0.85rem;
+            color: #475569;
+        }
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #1e3a8a;
+            color: white !important;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-top: 1.5rem;
+            transition: background 0.2s ease;
+        }
+        .btn-link:hover {
+            background: #2563eb;
+        }
+    </style>
 </head>
 <body>
 
     <header class="page-header">
         <div class="header-inner">
             <p class="breadcrumb">
-                <a href="../../index.html">Accueil</a> / Groupe 2
+                <a href="../../index.html">Accueil</a> / Groupe 5
             </p>
-            <h1>Groupe 2</h1>
-            <p>Les profils des étudiants du groupe 2.</p>
+            <h1>Groupe 5</h1>
+            <p>Les profils des étudiants du groupe 5.</p>
         </div>
     </header>
 
     <main class="container">
-        <section class="section">
-            <h2>Nos étudiants</h2>
-            <div class="callout">
-                <h2>Profils à venir</h2>
-                <p>
-                    Les membres du groupe 2 ajouteront leurs profils
-                    au cours du TP collaboratif.
-                </p>
+        <!-- Carte Personnelle Professionnelle -->
+        <section class="pro-card">
+            <div class="card-header-custom">
+                <div class="avatar-box">CML</div>
+                <div class="user-title">
+                    <h2>Majdoub Lakhal Chaima</h2>
+                    <p>Étudiante en Business Computing | ISG Sousse</p>
+                </div>
             </div>
-            <a class="back-link" href="../../index.html">
-                ← Retour à l'accueil
+
+            <p style="color: #475569; line-height: 1.6; margin-bottom: 1.5rem;">
+                Spécialisée en ingénierie web full-stack, architecture de bases de données et Business Intelligence (BI). 
+                Passioonnée par le développement d'applications performantes et l'analyse de données.
+            </p>
+
+            <h3 class="section-subtitle">Compétences Techniques</h3>
+            <div class="badge-container">
+                <span class="pro-badge">Laravel / PHP</span>
+                <span class="pro-badge">React & Inertia.js</span>
+                <span class="pro-badge">Tailwind CSS</span>
+                <span class="pro-badge">MySQL & SQL</span>
+                <span class="pro-badge">Python</span>
+                <span class="pro-badge">Power BI</span>
+                <span class="pro-badge">Git & GitHub</span>
+            </div>
+
+            <h3 class="section-subtitle">Projets Récents</h3>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h4>Balagh.tn</h4>
+                    <p>Plateforme civique numérique pour le suivi des infrastructures municipales.</p>
+                </div>
+                <div class="project-item">
+                    <h4>MediBook</h4>
+                    <p>Application web de prise de rendez-vous médicaux (Laravel & React).</p>
+                </div>
+                <div class="project-item">
+                    <h4>Masroufi.tn</h4>
+                    <p>Gestionnaire financier personnel avec tableaux de bord interactifs.</p>
+                </div>
+            </div>
+
+            <h3 class="section-subtitle">Liens & Contact</h3>
+            <a class="btn-link" href="https://github.com/chaimamaj065-netizen" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                Mon profil GitHub
             </a>
+
+            <div style="margin-top: 2rem;">
+                <a class="back-link" href="../../index.html">← Retour à l'accueil</a>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>3LIG-Portfolio — Groupe 2</p>
+        <p>3LIG-Portfolio — Groupe 5</p>
     </footer>
 
 </body>
 </html>
-
