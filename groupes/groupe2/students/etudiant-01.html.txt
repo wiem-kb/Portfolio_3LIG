@@ -24,13 +24,13 @@
     <main class="container">
         <section class="card">
             <div class="profile-icon">E1</div>
-            <h2>Omar Boulila</h2>
+            <h2>Bayram Alaya</h2>
             <p>Étudiant en troisième année de Licence en Informatique de Gestion.</p>
 
             <div class="profile-details">
-                <p><strong>Groupe :</strong> Groupe 2</p>
+                <p><strong>Groupe :</strong> Groupe 1</p>
                 <p><strong>Spécialité :</strong> Informatique de Gestion</p>
-                <p><strong>Objectif :</strong> Développer mes compétences en informatique et en travail collaboratif.</p>
+                <p><strong>Objectif :</strong> Développer mes compétences en informatique et Developpement .</p>
             </div>
 
             <h3>Mes compétences</h3>
