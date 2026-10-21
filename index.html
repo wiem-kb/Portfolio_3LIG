@@ -4,64 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de la promotion 3LIG</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>3LIG-Portfolio | Accueil</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
     <header class="hero">
-        <h1>Portfolio de la promotion 3LIG</h1>
-        <p>Découvrez les étudiants, leurs compétences et leurs projets.</p>
+        <nav class="navbar">
+            <a class="logo" href="index.html">3LIG Portfolio</a>
+            <a class="nav-link" href="#groupes">Nos groupes</a>
+        </nav>
+
+        <div class="hero-content">
+            <p class="eyebrow">Introduction au DevOps</p>
+            <h1>Découvrez les étudiants de 3LIG</h1>
+            <p>
+                Un portfolio collaboratif réalisé par les étudiants de troisième
+                année Licence en Informatique de Gestion.
+            </p>
+            <a class="button" href="#groupes">Découvrir les groupes</a>
+        </div>
     </header>
 
-    <main class="section">
-        <h2>Nos cinq groupes</h2>
+    <main class="container">
+        <section class="intro">
+            <h2>Un projet collaboratif</h2>
+            <p>
+                Chaque groupe présente ses membres, leurs compétences,
+                leurs projets et leurs objectifs professionnels.
+                Le site évolue grâce aux contributions des étudiants sur GitHub.
+            </p>
+        </section>
 
-        <div class="students-grid">
-            <article class="student-card">
-                <h3>Groupe 1</h3>
-                <p>Découvrez les membres du groupe 1.</p>
-                <a class="card-link" href="groupes/groupe-1/index.html">
-                    Accéder au groupe
-                </a>
-            </article>
+        <section id="groupes" class="section">
+            <h2>Nos cinq groupes</h2>
+            <p class="section-description">
+                Sélectionnez un groupe pour découvrir ses membres.
+            </p>
 
-            <article class="student-card">
-                <h3>Groupe 2</h3>
-                <p>Découvrez les membres du groupe 2.</p>
-                <a class="card-link" href="groupes/groupe-2/index.html">
-                    Accéder au groupe
-                </a>
-            </article>
+            <div class="cards">
+                <article class="card group-card">
+                    <span class="group-number">01</span>
+                    <h3>Groupe 1</h3>
+                    <p>Découvrez les profils des membres du premier groupe.</p>
+                    <a class="text-link" href="groupes/groupe1/index.html">
+                        Voir le groupe →
+                    </a>
+                </article>
 
-            <article class="student-card">
-                <h3>Groupe 3</h3>
-                <p>Découvrez les membres du groupe 3.</p>
-                <a class="card-link" href="groupes/groupe-3/index.html">
-                    Accéder au groupe
-                </a>
-            </article>
+                <article class="card group-card">
+                    <span class="group-number">02</span>
+                    <h3>Groupe 2</h3>
+                    <p>Découvrez les profils des membres du deuxième groupe.</p>
+                    <a class="text-link" href="groupes/groupe2/index.html">
+                        Voir le groupe →
+                    </a>
+                </article>
 
-            <article class="student-card">
-                <h3>Groupe 4</h3>
-                <p>Découvrez les membres du groupe 4.</p>
-                <a class="card-link" href="groupes/groupe-4/index.html">
-                    Accéder au groupe
-                </a>
-            </article>
+                <article class="card group-card">
+                    <span class="group-number">03</span>
+                    <h3>Groupe 3</h3>
+                    <p>Découvrez les profils des membres du troisième groupe.</p>
+                    <a class="text-link" href="groupes/groupe3/index.html">
+                        Voir le groupe →
+                    </a>
+                </article>
 
-            <article class="student-card">
-                <h3>Groupe 5</h3>
-                <p>Découvrez les membres du groupe 5.</p>
-                <a class="card-link" href="groupes/groupe-5/index.html">
-                    Accéder au groupe
-                </a>
-            </article>
-        </div>
+                <article class="card group-card">
+                    <span class="group-number">04</span>
+                    <h3>Groupe 4</h3>
+                    <p>Découvrez les profils des membres du quatrième groupe.</p>
+                    <a class="text-link" href="groupes/groupe4/index.html">
+                        Voir le groupe →
+                    </a>
+                </article>
+
+                <article class="card group-card">
+                    <span class="group-number">05</span>
+                    <h3>Groupe 5</h3>
+                    <p>Découvrez les profils des membres du cinquième groupe.</p>
+                    <a class="text-link" href="groupes/groupe5/index.html">
+                        Voir le groupe →
+                    </a>
+                </article>
+
+                <article class="card group-card">
+                    <span class="group-number">06</span>
+                    <h3>Groupe 6</h3>
+                    <p>Découvrez les profils des membres du sixième groupe.</p>
+                    <a class="text-link" href="groupes/groupe6/index.html">
+                        Voir le groupe →
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="callout">
+            <h2>Apprendre en collaborant</h2>
+            <p>
+                Ce projet permet de pratiquer Git, les branches, les commits,
+                les dépôts distants et les Pull Requests.
+            </p>
+        </section>
     </main>
 
     <footer class="footer">
-        <p>Introduction au DevOps — 3LIG</p>
+        <p>3LIG-Portfolio — TP Introduction au DevOps</p>
     </footer>
+
 </body>
 </html>
-
