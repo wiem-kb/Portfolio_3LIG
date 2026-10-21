@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Carte de Visite - Aya</title>
+    <style>
+        .card-container {
+            max-width: 450px;
+            margin: 20px auto;
+            padding: 25px;
+            background: linear-gradient(135deg, #ffffff 0%, #f4f7f6 100%);
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 1px solid #e0e0e0;
+            color: #333;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+        }
+
+        .header h2 {
+            margin: 0;
+            color: #007bff;
+            font-size: 26px;
+            letter-spacing: 0.5px;
+        }
+
+        .header .badge {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 4px 12px;
+            background-color: #e7f1ff;
+            color: #007bff;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #777;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .bio {
+            font-size: 15px;
+            line-height: 1.5;
+            color: #555;
+            margin: 0;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+
+        .skill-item {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <!-- Section En-tête -->
+        <div class="header">
+            <h2>Aya</h2>
+            <span class="badge">Étudiante 3ème Année LIG</span>
+        </div>
+
+        <!-- Section Groupe / Parcours -->
+        <div class="section">
+            <div class="section-title">SECTION & PARCOURS</div>
+            <p class="bio">Spécialité : <strong>Business Intelligence</strong></p>
+        </div>
+
+        <!-- Section Compétences -->
+        <div class="section">
+            <div class="section-title">COMPÉTENCES TECHNIQUES</div>
+            <ul class="skills-list">
+                <li class="skill-item">HTML / CSS</li>
+                <li class="skill-item">JavaScript</li>
+                <li class="skill-item">PHP</li>
+                <li class="skill-item">Python</li>
+                <li class="skill-item">Power BI</li>
+                <li class="skill-item">SQL</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
