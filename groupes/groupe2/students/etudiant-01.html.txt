@@ -24,11 +24,11 @@
     <main class="container">
         <section class="card">
             <div class="profile-icon">E1</div>
-            <h2>Prénom Nom</h2>
+            <h2>Ben Dhaou Fatma</h2>
             <p>Étudiant en troisième année de Licence en Informatique de Gestion.</p>
 
             <div class="profile-details">
-                <p><strong>Groupe :</strong> Groupe 1</p>
+                <p><strong>Groupe :</strong> Groupe 2</p>
                 <p><strong>Spécialité :</strong> Informatique de Gestion</p>
                 <p><strong>Objectif :</strong> Développer mes compétences en informatique et en travail collaboratif.</p>
             </div>
@@ -51,19 +51,19 @@
 
             <h3>Mes liens</h3>
             <p>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <a href="hhttps://github.com/bendhaoufatma02-design" target="_blank" rel="noopener noreferrer">
                     Mon profil GitHub
                 </a>
             </p>
 
             <a class="back-link" href="../index.html">
-                ← Retour au groupe 1
+                ← Retour au groupe 2
             </a>
         </section>
     </main>
 
     <footer class="footer">
-        <p>3LIG-Portfolio — Étudiant 01</p>
+        <p>3LIG-Portfolio — Étudiant 02</p>
     </footer>
 
 </body>
