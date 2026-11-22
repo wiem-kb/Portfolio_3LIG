@@ -1,6 +1,6 @@
 services:
   web:
-    image: TONUSERNAME/monapp:latest
+    image: hadilsamoud/monapp:latest
     ports:
       - "8082:80"
     restart: unless-stopped
